@@ -26,7 +26,7 @@
         
     };
     
-    if(document.readyState === "interactive") go();
-    else window.addEventListener('DOMContentLoaded',go);
+    if (document.readyState === "interactive") go();
+    else window.addEventListener('DOMContentLoaded', go);
     
 })();
